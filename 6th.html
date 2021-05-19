@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>4th lec of css how to do this seudo code</title>
+	<style type="text/css">
+		h1::before{
+			content: url(image/1.jpg);
+		
+
+		}
+		p::first-letter{
+			color: red;
+		}
+		p::first-line{
+				color: green;
+		}
+		h3::selection{
+			color: red;
+			background-color: black;  /* jb hm kuch word select karty hai tb color change hoga agar hm ny akhla heading py lagana ho tu start ma h1 likh dy gy bas selection k sath */
+		}
+	</style>
+</head>
+<body>
+	<h1>Hamza latif</h1>
+	<p>
+		My name is hamza latif s/o muhammad latif <br>
+		i study from uaf sub campus toba tek singh.
+	</p>
+
+	<h3 style="border: 10px solid green; height: 300px;width: 300px;outline: 5px solid red; padding: 10px; outline-offset: 5px; line-height: 40px; text-indent: 20px; text-shadow: 2px 1px blue;"> <!--ya 2 1px horizantal or vertical show krta hai-->
+		Html stand for hyper text markup language
+	</h3>
+
+	<pre style="direction: rtl; letter-spacing: 3px; ">html direction css html</pre> <!--ik ltr hota hai-->
+
+<a href="#" style="text-decoration: none;">text decoration</a>
+
+<h1 style="text-transform: uppercase;word-spacing: 10px;">hamza latif ansar latif</h1>
+
+</body>
+</html>
